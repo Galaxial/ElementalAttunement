@@ -1,0 +1,236 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    background-color:#1e1e1e;
+    color: white;
+    font-family: consolas;
+}
+header {
+    padding: 10px;
+    text-align: left;
+    font-size: 20;
+}
+div.container {
+    min-width: 100%;
+    max-width: 100%;
+}
+.column {
+    float:left;
+    padding: 10px;
+}
+.left {
+    width: 25%;
+}
+.right {
+    width: 75%;
+}
+.button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    text-align: center;
+    display: inline-block; 
+    font-size: 18px;
+    font-family: consolas;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 1px;
+}
+h2 {
+    font-size: 16px;
+}
+nav {
+    float: left;
+    background-color: #2E2E2E;
+    padding: 0px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color:  rgb(46, 46, 46);
+}
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color:  rgb(138, 43, 43);
+}
+article {
+    background-color: rgb(36, 36, 36);
+    max-width: 800px;
+}
+section {
+    background-color: #2E2E2E;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tab {
+    overflow:hidden
+}
+.tab button:hover {
+    background-color:rgb(138, 43, 43);
+}
+.tab button.active {
+    background-color:rgb(27, 27, 27);
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: consolas;
+    font-size: 18px;
+    transition: 0.1s;
+    padding: 10px;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color:rgb(27, 27, 27);
+}
+image {
+    padding: 20px;
+}
+.btn-group button {
+    background-color: rgb(27, 27, 27);
+    float: right;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: consolas;
+    font-size: 18px;
+    transition: 0.1s;
+    padding: 10px;
+}
+.btn-group button:hover {
+    background-color: rgb(138, 43, 43);
+}
+th, td {
+    padding: 5px 15px;
+}
+table {
+    width: 100%
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+#movethrough {
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+}
+
+a:hover {
+    background-color: rgb(138, 43, 43);
+    color: rgb(255, 255, 255);
+}
+
+.previous {
+    background-color: #2E2E2E;
+    color: rgb(255, 255, 255);
+}
+
+.next {
+    background-color:rgb(27, 27, 27);
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+.button:hover {
+    background-color: rgb(138, 43, 43);
+}
+#ChapterTitle {
+    text-align: center;
+    background-color:rgb(27, 27, 27);
+    padding: 40px;
+}
+#ContentWrapper {
+    left: 220px; 
+    position: absolute;
+    width: 800px;
+}
+#HomeSpace {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(27, 27, 27);
+}
+#HomeTitle {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    background-color:rgb(27, 27, 27);
+}
+.divider {
+    width: 5px;
+    height:auto;
+    display:inline-block;
+    background-color:rgb(27, 27, 27);
+}
+#TitleCrawl {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 760px;
+    left: 238px;
+    background-color:rgb(27, 27, 27);
+}
+#VowelTable {
+    width: 200px;
+}
+#ArchiveList {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(27, 27, 27);
+    font-size: 14px;
+}
+#ArchiveIntro {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(27, 27, 27);
+}
+#ArchiveList a:link{
+    color: red;
+}
+#ArchiveList a:visited{
+    color: rgb(172, 0, 0);
+}
+#ArchiveList a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 43, 43);
+}
+#ArchiveSeason {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(27, 27, 27);
+}
